@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1509842A675EFA0A79160B79 /* Pods_JumpControllerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F47A63CDAA889966C3C3CEC /* Pods_JumpControllerDemoTests.framework */; };
+		2B31925D24D8411A00E905EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31925C24D8411A00E905EC /* AppDelegate.swift */; };
+		2B31925F24D8411A00E905EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31925E24D8411A00E905EC /* SceneDelegate.swift */; };
+		2B31926124D8411A00E905EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31926024D8411A00E905EC /* ViewController.swift */; };
+		2B31926424D8411A00E905EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B31926224D8411A00E905EC /* Main.storyboard */; };
+		2B31926624D8412300E905EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B31926524D8412300E905EC /* Assets.xcassets */; };
+		2B31926924D8412300E905EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B31926724D8412300E905EC /* LaunchScreen.storyboard */; };
+		2B31927424D8412300E905EC /* JumpControllerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B31927324D8412300E905EC /* JumpControllerDemoTests.swift */; };
+		3991281CEB313DCB79C1175D /* Pods_JumpControllerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CDDA877007A39668E87C39 /* Pods_JumpControllerDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B31927024D8412300E905EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B31925124D8411A00E905EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B31925824D8411A00E905EC;
+			remoteInfo = JumpControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B31925924D8411A00E905EC /* JumpControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B31925C24D8411A00E905EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B31925E24D8411A00E905EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B31926024D8411A00E905EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B31926324D8411A00E905EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B31926524D8412300E905EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B31926824D8412300E905EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B31926A24D8412300E905EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B31926F24D8412300E905EC /* JumpControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumpControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B31927324D8412300E905EC /* JumpControllerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpControllerDemoTests.swift; sourceTree = "<group>"; };
+		2B31927524D8412300E905EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CDDA877007A39668E87C39 /* Pods_JumpControllerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpControllerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582924A5F78BEA5B3CBAC97D /* Pods-JumpControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpControllerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JumpControllerDemoTests/Pods-JumpControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F47A63CDAA889966C3C3CEC /* Pods_JumpControllerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JumpControllerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6C5E8B9AAF26EB7D738881 /* Pods-JumpControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpControllerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JumpControllerDemoTests/Pods-JumpControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7DB8191219DA950683B505E /* Pods-JumpControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpControllerDemo.debug.xcconfig"; path = "Target Support Files/Pods-JumpControllerDemo/Pods-JumpControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F710719F0E51CA8EEA19F343 /* Pods-JumpControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JumpControllerDemo.release.xcconfig"; path = "Target Support Files/Pods-JumpControllerDemo/Pods-JumpControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B31925624D8411A00E905EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3991281CEB313DCB79C1175D /* Pods_JumpControllerDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B31926C24D8412300E905EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1509842A675EFA0A79160B79 /* Pods_JumpControllerDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B31925024D8411A00E905EC = {
+			isa = PBXGroup;
+			children = (
+				2B31925B24D8411A00E905EC /* JumpControllerDemo */,
+				2B31927224D8412300E905EC /* JumpControllerDemoTests */,
+				2B31925A24D8411A00E905EC /* Products */,
+				A0CE82459137E1088F105E71 /* Pods */,
+				97E8823893E87028104DB743 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B31925A24D8411A00E905EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B31925924D8411A00E905EC /* JumpControllerDemo.app */,
+				2B31926F24D8412300E905EC /* JumpControllerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B31925B24D8411A00E905EC /* JumpControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B31925C24D8411A00E905EC /* AppDelegate.swift */,
+				2B31925E24D8411A00E905EC /* SceneDelegate.swift */,
+				2B31926024D8411A00E905EC /* ViewController.swift */,
+				2B31926224D8411A00E905EC /* Main.storyboard */,
+				2B31926524D8412300E905EC /* Assets.xcassets */,
+				2B31926724D8412300E905EC /* LaunchScreen.storyboard */,
+				2B31926A24D8412300E905EC /* Info.plist */,
+			);
+			path = JumpControllerDemo;
+			sourceTree = "<group>";
+		};
+		2B31927224D8412300E905EC /* JumpControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B31927324D8412300E905EC /* JumpControllerDemoTests.swift */,
+				2B31927524D8412300E905EC /* Info.plist */,
+			);
+			path = JumpControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		97E8823893E87028104DB743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44CDDA877007A39668E87C39 /* Pods_JumpControllerDemo.framework */,
+				8F47A63CDAA889966C3C3CEC /* Pods_JumpControllerDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0CE82459137E1088F105E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB8191219DA950683B505E /* Pods-JumpControllerDemo.debug.xcconfig */,
+				F710719F0E51CA8EEA19F343 /* Pods-JumpControllerDemo.release.xcconfig */,
+				8F6C5E8B9AAF26EB7D738881 /* Pods-JumpControllerDemoTests.debug.xcconfig */,
+				582924A5F78BEA5B3CBAC97D /* Pods-JumpControllerDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B31925824D8411A00E905EC /* JumpControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B31927824D8412300E905EC /* Build configuration list for PBXNativeTarget "JumpControllerDemo" */;
+			buildPhases = (
+				E8DEDF1880364BBF8FBA1900 /* [CP] Check Pods Manifest.lock */,
+				2B31925524D8411A00E905EC /* Sources */,
+				2B31925624D8411A00E905EC /* Frameworks */,
+				2B31925724D8411A00E905EC /* Resources */,
+				C13F19F29FD4784FFFDDA47E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpControllerDemo;
+			productName = JumpControllerDemo;
+			productReference = 2B31925924D8411A00E905EC /* JumpControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B31926E24D8412300E905EC /* JumpControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B31927B24D8412300E905EC /* Build configuration list for PBXNativeTarget "JumpControllerDemoTests" */;
+			buildPhases = (
+				B6C65FF4A4C342B0AD73E463 /* [CP] Check Pods Manifest.lock */,
+				2B31926B24D8412300E905EC /* Sources */,
+				2B31926C24D8412300E905EC /* Frameworks */,
+				2B31926D24D8412300E905EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B31927124D8412300E905EC /* PBXTargetDependency */,
+			);
+			name = JumpControllerDemoTests;
+			productName = JumpControllerDemoTests;
+			productReference = 2B31926F24D8412300E905EC /* JumpControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B31925124D8411A00E905EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = unkofun;
+				TargetAttributes = {
+					2B31925824D8411A00E905EC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					2B31926E24D8412300E905EC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2B31925824D8411A00E905EC;
+					};
+				};
+			};
+			buildConfigurationList = 2B31925424D8411A00E905EC /* Build configuration list for PBXProject "JumpControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B31925024D8411A00E905EC;
+			productRefGroup = 2B31925A24D8411A00E905EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B31925824D8411A00E905EC /* JumpControllerDemo */,
+				2B31926E24D8412300E905EC /* JumpControllerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B31925724D8411A00E905EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B31926924D8412300E905EC /* LaunchScreen.storyboard in Resources */,
+				2B31926624D8412300E905EC /* Assets.xcassets in Resources */,
+				2B31926424D8411A00E905EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B31926D24D8412300E905EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6C65FF4A4C342B0AD73E463 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumpControllerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13F19F29FD4784FFFDDA47E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumpControllerDemo/Pods-JumpControllerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JumpControllerDemo/Pods-JumpControllerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JumpControllerDemo/Pods-JumpControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8DEDF1880364BBF8FBA1900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JumpControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B31925524D8411A00E905EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B31926124D8411A00E905EC /* ViewController.swift in Sources */,
+				2B31925D24D8411A00E905EC /* AppDelegate.swift in Sources */,
+				2B31925F24D8411A00E905EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B31926B24D8412300E905EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B31927424D8412300E905EC /* JumpControllerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B31927124D8412300E905EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B31925824D8411A00E905EC /* JumpControllerDemo */;
+			targetProxy = 2B31927024D8412300E905EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B31926224D8411A00E905EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B31926324D8411A00E905EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B31926724D8412300E905EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B31926824D8412300E905EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B31927624D8412300E905EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B31927724D8412300E905EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B31927924D8412300E905EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7DB8191219DA950683B505E /* Pods-JumpControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4B8JDZJT6;
+				INFOPLIST_FILE = JumpControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fun.unko.JumpControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B31927A24D8412300E905EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F710719F0E51CA8EEA19F343 /* Pods-JumpControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4B8JDZJT6;
+				INFOPLIST_FILE = JumpControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fun.unko.JumpControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B31927C24D8412300E905EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6C5E8B9AAF26EB7D738881 /* Pods-JumpControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4B8JDZJT6;
+				INFOPLIST_FILE = JumpControllerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fun.unko.JumpControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpControllerDemo.app/JumpControllerDemo";
+			};
+			name = Debug;
+		};
+		2B31927D24D8412300E905EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582924A5F78BEA5B3CBAC97D /* Pods-JumpControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4B8JDZJT6;
+				INFOPLIST_FILE = JumpControllerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fun.unko.JumpControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumpControllerDemo.app/JumpControllerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B31925424D8411A00E905EC /* Build configuration list for PBXProject "JumpControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B31927624D8412300E905EC /* Debug */,
+				2B31927724D8412300E905EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B31927824D8412300E905EC /* Build configuration list for PBXNativeTarget "JumpControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B31927924D8412300E905EC /* Debug */,
+				2B31927A24D8412300E905EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B31927B24D8412300E905EC /* Build configuration list for PBXNativeTarget "JumpControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B31927C24D8412300E905EC /* Debug */,
+				2B31927D24D8412300E905EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B31925124D8411A00E905EC /* Project object */;
+}

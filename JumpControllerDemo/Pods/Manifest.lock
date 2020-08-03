@@ -1,0 +1,16 @@
+PODS:
+  - JumpController (0.0.1)
+
+DEPENDENCIES:
+  - JumpController (from `..`)
+
+EXTERNAL SOURCES:
+  JumpController:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  JumpController: 3ed114266c2ffb130f8c21db827fda370d727217
+
+PODFILE CHECKSUM: c2112b5f1eb8a070127b005640acaf53d2680b09
+
+COCOAPODS: 1.9.3

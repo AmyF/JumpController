@@ -1,0 +1,6 @@
+framework module JumpController {
+  umbrella header "JumpController-umbrella.h"
+
+  export *
+  module * { export * }
+}

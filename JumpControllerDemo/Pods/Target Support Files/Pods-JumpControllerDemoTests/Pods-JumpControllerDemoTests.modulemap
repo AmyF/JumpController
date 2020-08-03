@@ -1,0 +1,6 @@
+framework module Pods_JumpControllerDemoTests {
+  umbrella header "Pods-JumpControllerDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
